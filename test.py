@@ -38,6 +38,9 @@ auto main( int argc, char** argv ) -> int
 }
 """, "utf8"))
 
+print("\n")
+print("\n")
+print(tree.root_node.sexp())
 
 # Breadth first
 queue = SimpleQueue()
